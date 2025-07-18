@@ -4,7 +4,7 @@ import AddNote from './components/AddNote/AddNote';
 import NotesGrid from './components/NotesGrid/NotesGrid';
 
 export type Note = {
-    id: number;
+    _id: string;
     title: string;
     content: string;
 }

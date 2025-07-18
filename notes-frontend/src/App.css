@@ -4,12 +4,18 @@
   color: white;
 }
 
+p, h4 {
+  margin: 0;
+}
+
 .main-container {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
   grid-gap: 20px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 @media (max-width: 768px) {
